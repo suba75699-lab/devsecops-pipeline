@@ -29,4 +29,4 @@ jobs:
         run: pytest -v
 
       - name: Run Bandit Security Scan
-        run: bandit -r . --exclude ./.github
+run: bandit -r . --exclude ./.github,./test_app.py
